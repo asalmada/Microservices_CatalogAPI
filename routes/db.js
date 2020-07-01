@@ -9,36 +9,36 @@ var populateDB = function() {
 
     var products = [
     {
-        name: 'Face mask',
-        color: 'white',
-        quantity: 5,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        usaDollarPrice: 0.00,
-        imgsrc:'https://images-na.ssl-images-amazon.com/images/I/71Okw5cMcDL._SX425_.jpg'
-    },
-    {
-        name: 'Gloves',
-        color: 'blue',
+        name: 'Disposable Gloves',
+        color: 'green',
         quantity: 53,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        description: 'GUIDANCE: Use gloves whenever you touch surfaces contaminated by body fluids. As an aircraft maintenance worker, you could be exposed to COVID-19 in situations such as when you have close contact with someone with COVID-19, when you touch surfaces while repairing aircraft interiors and lavatories that have been touched or handled by a person with COVID-19, or by touching your mouth, nose, or eyes.',
         usaDollarPrice: 0.00,
-        imgsrc:'https://w7.pngwing.com/pngs/125/461/png-transparent-medical-glove-nitrile-rubber-medical-gloves-hand-cleaning-material.png'
+        imgsrc:'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Surgical_gloves_27.JPG/320px-Surgical_gloves_27.JPG'
     },
     {
-        name: 'Face shield mask',
+        name: 'Face Coverings',
+        color: 'blue',
+        quantity: 5,
+        description: 'CDC recommends wearing cloth face coverings in public settings where other social distancing measures are difficult to maintain, especially in areas of significant community-based transmission. Cloth face coverings may prevent people who don’t know they have the virus from transmitting it to others. These face coverings are not surgical masks or respirators and are not appropriate substitutes for them in workplaces where masks or respirators are recommended or required.',
+        usaDollarPrice: 0.00,
+        imgsrc:'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Wearing_protective_mask_during_the_COVID-19_pandemic_in_Lutsk%2C_April%2C_2020.jpg/320px-Wearing_protective_mask_during_the_COVID-19_pandemic_in_Lutsk%2C_April%2C_2020.jpg'
+    },
+    {
+        name: 'Hand Sanitizer',
         color: 'white',
         quantity: 7,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        description: 'Proper hand hygiene is an important infection control measure. Wash your hands regularly with soap and water for at least 20 seconds. If soap and water are not readily available, use an alcohol-based hand sanitizer containing at least 60% alcohol.',
         usaDollarPrice: 0.00,
-        imgsrc:'https://img.kalunga.com.br/FotosdeProdutos/549744d.jpg'
+        imgsrc:'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Harmon_Face_Values_Hand_Sanitizer.jpg/360px-Harmon_Face_Values_Hand_Sanitizer.jpg'
     },  
     {
-        name: 'Hand sanitizer',
+        name: 'Face Shield Mask',
         color: 'white',
         quantity: 155,
-        description: 'These have been fueling IBMers for ages!',
+        description: 'If cleaning is required before you make repairs, first review CDC cleaning guidance for Airlines and Airline Crew: Coronavirus Disease 2019 (COVID-19). Use Face shield masks on the following conditions: Air Filter Replacement (when replacing air filters including HEPA filters) and for Waste and Wastewater Handling (when performing work tasks that could expose you to untreated waste and wastewater)',
         usaDollarPrice: 0.00,
-        imgsrc:'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQX5qoM1o6BrAC2TX6Uhs19bN9jlhBpwSvRQA&usqp=CAU'
+        imgsrc:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Face_shield_5.jpg/360px-Face_shield_5.jpg'
     }];
 
     for (var p in products){
